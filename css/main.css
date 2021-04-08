@@ -1,0 +1,103 @@
+body{
+    
+    color: #888888;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.bgRep{
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+a {
+    color: #acacac;
+    text-decoration: none;
+}
+header{
+    display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+.logo{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: 100px;
+}
+.headmenu {
+    display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 100px;
+    font-size: 16px;
+}
+.headitem {
+    margin-top: 35px;
+    padding-right: 20px;
+}
+.btnPlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border:1px rgba(255, 255, 255,0.5) solid ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    display: flex;
+    
+}
+.btnItemTriangle{
+    display: inline;
+    width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 20px solid white;
+	border-bottom: 20px solid transparent;
+    width: 20px;
+    margin-left: 70px;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.btnItemSquare{
+    display: none;
+    margin-left: 58px;
+    margin-right: auto;
+    margin-top: 55px;
+    width: 30px;
+    height: 40px;
+    background-color: white;
+    
+}
+/* .monmon{
+    margin-left: -40px;
+} */
+.window-control-panel {
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 25%;
+    height: 25%;
+    position: fixed;
+    left: 0; bottom: 0;
+    /* padding-left: 10%; */
+}
+.window-control-panel div {
+    margin-top: 30px;
+    padding-left: 50px;
+}
+img{
+    width: 40px;
+}
+.flex-line{
+    display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: -50px;
+}
